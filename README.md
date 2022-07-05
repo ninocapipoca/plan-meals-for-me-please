@@ -49,4 +49,5 @@ The following libraries are required to run this program. They can be installed 
 - random
 - math
 - beautifulsoup (beautifulsoup4)
+
 They can be installed with the command `pip install` followed by the library name, eg `pip install beautifulsoup4`.
