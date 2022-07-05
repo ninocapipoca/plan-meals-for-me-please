@@ -3,15 +3,6 @@ A python script to take some recipes from a BBC goodfood page and plan meals for
 
 The idea was to create a script to facilitate life at home. Webscraping is a very useful skill that I've been interested in learning for a while, and I don't like planning meals so I thought this was a win-win situation! I wrote this initially for my own learning, but anyone is welcome to take my code and improve it.
 
-## Required libraries
-The following libraries are required to run this program. They can be installed using pip or another method of your choice, if they are not already installed on your machine.
-- requests
-- pandas
-- openpyxl
-- random
-- math
-- beautifulsoup
-
 ### How it works
 Run the main file using `python3 main.py` and you will be asked for user input for the following options:
 - What BBC goodfood page you want to get your recipes from
@@ -35,3 +26,27 @@ This is what I would like to improve when revisiting this project, apart from th
 
 If you would like to make this a bigger project, I'd be very happy to work on this with you, so feel free to contact me.
 
+# Installation guides
+## Installing Python & pip
+### Mac OS
+1. Check if you have Python installed with `python --version`. If you don't have at least Python 2.7, you can install it by following an online tutorial such as [this one](https://www.dataquest.io/blog/installing-python-on-mac/).
+2. Install pip on your machine: If you don't have homebrew, do `python -m ensurepip` or `python3 -m ensurepip` and you should be done. If you do, you can simply do `brew install python` followed by `brew unlink python && brew link python`. In both cases it is advisable to check that the installation was successful using `pip --version`.
+
+### Windows
+1. Check if you have Python installed with `python --version`. If you don't have at least Python 2.7, you can install it by following an online tutorial such as [this one](https://phoenixnap.com/kb/how-to-install-python-3-windows).
+2. Install pip on your machine: You can check if it is already installed using `pip help` or `pip --version`, if it responds, you don't need to do anything. Otherwise, get the file with `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` then type `python get-pip.py`. Verify whether you have installed it successfully. If not, you may want to look at [this page](https://phoenixnap.com/kb/install-pip-windows).
+
+### Linux (Ubuntu)
+1. Check if you have Python installed with `python --version`. If you don't have at least Python 2.7, you can install it by following an online tutorial such as [this one](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu).
+2. Install pip on your machine: You can check whhether it is installed using `pip help` or `pip --version` as in Windows. If it isn't, it is recommended that you update first with `sudo apt-get update`, then install pip with `sudo apt-get -y install pip`, and check whether it was successful. If not, you may want to look at [this page](https://www.educative.io/answers/installing-pip3-in-ubuntu) carefully.
+
+
+## Required libraries
+The following libraries are required to run this program. They can be installed using pip or another method of your choice, if they are not already installed on your machine.
+- requests 
+- pandas
+- openpyxl
+- random
+- math
+- beautifulsoup (beautifulsoup4)
+They can be installed with the command `pip install` followed by the library name, eg `pip install beautifulsoup4`.
