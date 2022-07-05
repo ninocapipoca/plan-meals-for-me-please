@@ -13,7 +13,7 @@ The following libraries are required to run this program. They can be installed 
 - beautifulsoup
 
 ### How it works
-It runs in the terminal and takes a couple of options as input:
+Run the main file using `python3 main.py` and you will be asked for user input for the following options:
 - What BBC goodfood page you want to get your recipes from
 - How many meals you want to plan in the week
 - Whether you want to plan only lunches, only dinners or both
