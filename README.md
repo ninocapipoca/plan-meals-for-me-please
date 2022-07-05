@@ -21,7 +21,7 @@ Run the main file using `python3 main.py` and you will be asked for user input f
 Based on this, recipes are extracted from the webpage used as input and an excel file is generated with the recipes randomly assigned to a meal / day of the week. Another file with the ingredients and link to each recipe is generated as well. The idea is that this could act as a kind of shopping list.
 
 ### Issues
-I wrote this as a personal project, and rather quickly, so as of yet I have not had the opportunity to get rid of all the bugs and optimize as much as I would like - it was really a beginner project. Thus, there are a number of issues at the moment.
+I wrote this as a personal project, and rather quickly, so as of yet I have not had the opportunity to get rid of all the bugs and optimize as much as I would like - it was really a beginner project. Thus, there are a number of issues at the moment. These are only the ones I have found so far, based on a quick glance and a few simple tests.
 - I capped the number of meals that the program is able to plan at max 1 week's worth of meals (i.e. 14) but I did not cap the number for dinners only or lunches only (i.e., there will be an error if you choose more than 7 meals and "dinner only" or "lunch only")
 - I did not check whether there are sufficient recipes on the webpage to satisfy the number of meals desired
 - The excel cells are too small for the recipe names
