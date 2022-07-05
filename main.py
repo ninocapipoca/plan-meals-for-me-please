@@ -6,24 +6,6 @@ import random as rand
 import scraping as scr #webscraping file
 import math
 
-#############
-# This was made for personal use
-# It is very roughly made as I did not have time for great optimizations & fancy things
-# There are a number of issues to fix and handy extensions
-# but the main idea is to just facilitate life a little bit at home
-# even if it's with a pretty ugly excel spreadsheet
-#############
-
-#############
-# Improvements:
-# - scrape only the number of recipes desired
-# - create ingredient list taking into consideration quantities and duplicates (pretty hard)
-# - create an interface that isn't the terminal
-# - allow meal planning to happen with recipes from multiple bbc goodfood pages
-# - there's a bug with the number of meals, can't plan 14 meals if dinner only or lunch only
-# - also a bug with number of recipes on webpage; does not check whether nr of meals > nr of recipes on page
-# among others...
-#############
 
 
 
