@@ -25,7 +25,6 @@ I wrote this as a personal project, and rather quickly, so as of yet I have not 
 - I capped the number of meals that the program is able to plan at max 1 week's worth of meals (i.e. 14) but I did not cap the number for dinners only or lunches only (i.e., there will be an error if you choose more than 7 meals and "dinner only" or "lunch only")
 - I did not check whether there are sufficient recipes on the webpage to satisfy the number of meals desired
 - The excel cells are too small for the recipe names
-There are likely more bugs that I am going to come across when working further on the project, but these are the most noticeable ones so far.
 
 ### Improvements
 This is what I would like to improve when revisiting this project, apart from the necessary debugging:
