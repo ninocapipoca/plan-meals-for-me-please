@@ -6,9 +6,9 @@ import random as rand
 import scraping as scr #webscraping file
 import math
 
+# ISSUE DETECTED - No distinction in recipes in terms of whether it's a dessert or main dish
 
-
-
+# Improvement (?) use argv
 def main():
     url = ''
     number_meals = 0
@@ -77,7 +77,7 @@ def main():
         print("Something went very wrong and now you have no URL")
         return
 
-    recipes = scr.scrape(input_url)
+    recipes = scr.scrape(input_url, number_meals)
     # using number_meals
 
     # randomize list of recipes in-place

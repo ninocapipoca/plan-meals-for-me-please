@@ -5,13 +5,13 @@ import recipe_class as rpc
 #html_text = requests.get('https://www.bbcgoodfood.com/recipes/collection/healthy-dinner-recipes').text
 
 
-def scrape(url):
+def scrape(url, maxnr):
     # extract recipes and turn them into objects to store the info
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, 'lxml')
     # get recipe cards
     print("finding recipes..")
-    recipes = soup.find_all('li', class_ = 'dynamic-list__list-item list-item')
+    recipes = soup.find_all('li', class_= 'dynamic-list__list-item list-item', limit=maxnr)
 
     recipe_objects = []
     for recipe in recipes:
